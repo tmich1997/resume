@@ -1,0 +1,303 @@
+import {
+    mobile,
+    backend,
+    creator,
+    web,
+    javascript,
+    html,
+    css,
+    reactjs,
+    tailwind,
+    git,
+    figma,
+    meta,
+    starbucks,
+    tesla,
+    shopify,
+    carrent,
+    jobit,
+    tripguide,
+    threejs,
+    sql,
+    tableau,
+    powerBI,
+    python,
+    alteryx,
+    github
+  } from "../assets";
+  
+  export const navLinks = [
+    {
+      id: "about",
+      title: "About",
+    },
+    {
+      id: "work",
+      title: "Work",
+    },
+    {
+      id: "education",
+      title: "Education",
+    },
+    {
+      id: "contact",
+      title: "Contact",
+    },
+  ];
+  
+  const services = [
+    {
+      title: "Data Analyst",
+      icon: web,
+    },
+    {
+      title: "Dashboard Developer",
+      icon: mobile,
+    },
+    {
+      title: "ETL Developer",
+      icon: backend,
+    },
+    {
+      title: "Business Analyst",
+      icon: creator,
+    },
+  ];
+  
+  const technologies = [
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Power BI",
+      icon: powerBI,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Alteryx",
+      icon: alteryx,
+    },
+    {
+      name: "tableau",
+      icon: tableau,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "sql",
+      icon: sql,
+    },
+  ];
+  
+  const experiences = [
+    {
+      title: "Graduate Mechanical Engineer",
+      company_name: "Brisbane City Council (Transport for Brisbane)",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "January 2020 - July 2020",
+      points: [
+        "Collaborated with internal mechanics and technicians to plan, prepare, and execute comprehensive testing of the modified air-conditioning system for the Volvo B7 buses in the fleet.",
+        "Wrote an analysis report, which detailed the testing outcomes, conclusions, and recommended modifications, and presented the findings to the fleet engineer, which resulted in the approval for the integration of modifications across the entire fleet.",
+        "Played a pivotal role in a collaborative team effort that produced distinctive decals for the entire Brisbane bus fleet, addressing COVID-19 safety measures and promoting card-only payment methods."
+      ],
+    },
+    {
+      title: "Graduate Mechanical Engineer",
+      company_name: "Brisbane City Council (Brisbane Infrastructure)",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "July 2020 - December 2021",
+      points: [
+        "Managed a team of four to successfully execute a comprehensive audit of aviation lights on the Eleanor Schonell Bridge. Collaborated with the communication team to inform the public, engaged with Translink to secure necessary permits for a one-night bridge closure, and organised traffic control to ensure the safety of the workers.",
+        "Directed a team of ten to successfully deliver asphalt repairs on the Walter Taylor Bridge. Coordinated with the communication team to notify the public, collaborated with local police to obtain approvals for a four-night bridge closure, and hired traffic control to ensure the safety of the public and workers. The project was completed ahead of schedule and on budget.",
+        "Led an internal team of six in the successful removal of crow's nests on the Brisbane Story Bridge. Worked with the communication team for public awareness initiatives and worked with the police to secure permissions for bridge closures and road safety measures. This project was completed on time and on budget.",
+        "Oversaw an internal team of five in successfully cleaning the underside of the northern section of the Brisbane Story Bridge. Collaborated with an external private contractor to implement temporary scaffolding, ensuring the safety of the public during the project. Also, worked with external stakeholders to come up with a schedule for cleaning to happen. Successfully completed the project within the designated timeframe and budgetary constraints."
+      ],
+    },
+    {
+      title: "Customer Service Agent (ATO)",
+      company_name: "ProbeCX",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "January 2022 - November 2023",
+      points: [
+        "Demonstrated exceptional performance by achieving 98% or above in adherence, conformance, and attendance key performance indicators.",
+        "Adhered to federal laws, ensuring the confidentiality, privacy, and integrity of customer information.",
+        "Managed and appropriately escalated customer complaints or queries, while maintaining a focus on customer satisfaction and resolution.",
+        "Provided valuable support to the manager in onboarding new staff, contributing to their seamless integration into the team, and, offered coaching when necessary.",
+      ],
+    },
+    {
+      title: "Data Analytics Consultant",
+      company_name: "The Data School Down Under",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "February 2023 - February 2024",
+      points: [
+        "Successfully delivered web scraped data from private health insurance websites (i.e. Bupa, nib, iSelect) using custom Python code, which was transformed using Alteryx for a client in the private health insurance industry. The data assisted the client in organising their product and pricing strategy to be more competitive in the health insurance market.",
+        "Transformed, analysed, and visualised IT help desk data for a Catholic education provider based in Parramatta. The client used the Tableau dashboard to identity which schools were having the most issues and the type of issues so that resources can be allocated accordingly.",
+        "Visualised energy profiles in Tableau across different industries for a large energy retailer. The dashboard helped the client get an understanding of usage patterns to adapt their marketing strategy based on the industry.",
+        "Analysed coal mining data for a Queensland government department, assessing the industry’s status in terms of active mines, how much they produced, and who they were competing with. Forecasting was also conducted on the revenue generated from mining royalties. These findings were presented in an exploratory Power BI report. The client was satisfied with the results, and they expressed interest in exploring revenue from royalties in more detail.",
+      ],
+    },
+  ];
+  
+  const projects = [
+    {
+      name: "Car Rent",
+      source: github,
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Job IT",
+      source: tableau,
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      source: powerBI,
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      source: powerBI,
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+  ]
+  
+  const educations = [
+    {
+      title: "Bachelor of Engineering (Mechanical) (Honours)",
+      university_name: "University of the Sunshine Coast",
+      date: "June 2015 - June 2019",
+      points: [
+        "Completed the degree with an Honours Class I",
+        "2017 L.E.W. Mosel Prize: Highest achieving Second Year Civil Engineering student.",
+        "2019 University Commendation for Academic Excellence."
+      ]
+    },
+    {
+      title: "Graduate Certificate in Data Science (Applied)",
+      university_name: "University of Adelaide",
+      date: "January 2022 - August 2022",
+      points: [
+        "Successfully completed courses related to data science, data modelling, data visualisation, and data transformations",
+        "Utilised industry software and libraries like Python, R & RStudio, Matplotlib, NumPy, and Pandas",
+        "Completed assessment projects which involved exploratory data analysis, building predictive models, and dealing with messy data"
+      ]
+    },
+    {
+      title: "Software Engineering: Transform (Bootcamp)",
+      university_name: "Academy Xi",
+      date: "February 2022 - December 2022",
+      points: [
+        "10-month bootcamp with course cirriculum powered by Flatiron School",
+        "Full-stack development in React, JavaScript, SQL, Ruby, and Rails",
+        "Completed 5-projects with varying complexities"
+      ]
+    },
+
+
+
+  ];
+  
+  export { services, technologies, experiences, projects, educations };
