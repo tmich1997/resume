@@ -47,13 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Soluta nisi magnam voluptate earum eos perspiciatis, culpa 
-        accusantium obcaecati architecto quam qui ipsum aspernatur 
-        voluptates incidunt explicabo sunt, quos nobis rem. 
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        Velit inventore adipisci doloremque vitae qui est itaque nesciunt explicabo enim repellendus. 
-        Veritatis asperiores sit rerum nihil ratione maxime repellendus assumenda deserunt.
+        I am a Data Analyst who is proficient in designing, developing, and creating insightful dashboards and reports that can be utilised to deliver actionable insights. 
+        Driven by curiosity and a passion for learning, I am constantly adding to my skillset which encompasses data engineering, Microsoft SQL Server, Python, Alteryx, dbt, Tableau, Snowflake and Power BI. 
+        Through my diverse background and experience across a range of industries, I have honed my adaptability, technical, oral, and written communication skills, positioning me as a flexible and versatile professional ready to contribute to any team or project.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
