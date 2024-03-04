@@ -42,7 +42,7 @@ const Education = () => {
           What I have learned so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Education
+          Education.
         </h2>
       </motion.div>
 
