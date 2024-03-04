@@ -13,7 +13,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact</h3>
+        <h3 className={styles.sectionHeadText}>Contact.</h3>
         <h4 className='text-white-100 text-[14px] pl-1 tracking-wider mt-5'>
           dasjkh fah  fhajdfh ajdhf akdhfjkadhf akjhfkadhf kahdf kadhf uflkad fad
           falfujfaf lahdfh
