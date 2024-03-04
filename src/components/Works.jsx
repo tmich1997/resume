@@ -75,7 +75,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          It will show things
+          The following projects showcase my skills and experience through real-world examples.
+          Each project card has an icon which indicates the technology being used for the project.
+          Furthermore, each project will link to the relevant GitHub code repository or Tableau Public link
+          or Power BI NovyPro link. The projects reflect my ability to solve complex problems, work with different
+          technologies, and manage projects efficiently.
         </motion.p>
       </div>
 
