@@ -19,8 +19,8 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
         <h4 className='text-white-100 text-[14px] pl-1 tracking-wider mt-4'>
-          Thank you taking the time for visiting my website and I hope you learned a lot
-          about me. Feel free to checkout my other links below, and please come visit again. 
+          dasjkh fah  fhajdfh ajdhf akdhfjkadhf akjhfkadhf kahdf kadhf uflkad fad
+          falfujfaf lahdfh 
         </h4>
         <h4 className='text-white-100 text-[20px] pl-1 tracking-wider mt-5'>Thank you!</h4>
 
