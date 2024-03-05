@@ -179,7 +179,7 @@ import {
       name: "50-day Python Challenge",
       source: python,
       description:
-        "In my pursuit of learning Python, I decided to follow “50 Days of Python, A Challenge a Day” by Benjamin Bennett Alexander, and learn Python by doing challenges.",
+        "In my pursuit of learning Python, I decided to follow “50 Days of Python, A Challenge a Day” by Benjamin Bennett Alexander, and learn Python by doing challenge a day.",
       tags: [
         {
           name: "python",
