@@ -13,6 +13,8 @@ import powerBI from "./tech/powerBI.png"
 import python from "./tech/python.png"
 import alteryx from "./tech/alteryx.png"
 import python_1 from "./python_1.png"
+import linkedin from "./linkedin.png"
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -72,5 +74,6 @@ export {
   powerBI,
   python,
   alteryx,
-  python_1
+  linkedin,
+  python_1,
 };
