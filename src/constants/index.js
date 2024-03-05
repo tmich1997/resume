@@ -23,7 +23,8 @@ import {
     powerBI,
     python,
     alteryx,
-    github
+    github,
+    python_1
   } from "../assets";
   
   export const navLinks = [
@@ -175,26 +176,18 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      source: github,
+      name: "50-day Python Challenge",
+      source: python,
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "In my pursuit of learning Python, I decided to follow “50 Days of Python, A Challenge a Day” by Benjamin Bennett Alexander, and learn Python by doing challenges.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: python_1,
+      source_code_link: "https://github.com/tmich1997/50-days-of-python-challenge",
     },
     {
       name: "Job IT",

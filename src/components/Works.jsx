@@ -2,7 +2,7 @@ import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { github, powerBI, tableau } from '../assets'
+import { github, powerBI, python, tableau } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
@@ -31,7 +31,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code, sourc
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={source === github ? github : source === tableau ? tableau : powerBI}
+                src={source === github ? github : 
+                     source === python ? python : 
+                     source === tableau ? tableau : powerBI
+                    }
                 alt='github'
                 className='w-1/2 h-1/2 object-contain'
               />
