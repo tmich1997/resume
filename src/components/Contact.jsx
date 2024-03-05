@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { linkedin, tableau, github, powerBI } from '../assets';
 
 const Contact = () => {
   return (
@@ -13,40 +14,52 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact</h3>
+        <h3 className={styles.sectionHeadText}>Contact.</h3>
         <h4 className='text-white-100 text-[14px] pl-1 tracking-wider mt-5'>
-          dasjkh fah  fhajdfh ajdhf akdhfjkadhf akjhfkadhf kahdf kadhf uflkad fad
-          falfujfaf lahdfh
+          Thank you taking the time for visiting my website and I hope you learned a lot
+          about me. Feel free to checkout my other links below, and please come visit again.
         </h4>
+        <h4 className='text-white-100 text-[24px] pl-1 tracking-wider mt-10'>Thank you!</h4>
 
         <div className='flex flex-row gap-4 mt-20'>
           <div>
             <a href="https://www.linkedin.com/in/timble-michael" target='_blank' rel='noopener noreferrer'>
+              <img src={linkedin} alt='LinkedIn' height={30} width={30} />
+            </a>
+          </div>
+
+          <div>
+            <a href="mailto:timblemichael20@gmail.com" target='_blank' rel='noopener noreferrer'>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-7 w-7"
                 fill="currentColor"
-                style={{ color: "#ffff" }}
+                style={{ color: "#fff" }}
                 viewBox="0 0 24 24">
                 <path
-                  d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                  d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" />
               </svg>
             </a>
           </div>
 
           <div>
-            <a href="https://www.linkedin.com/in/timble-michael" target='_blank' rel='noopener noreferrer'>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-7 w-7"
-                fill="currentColor"
-                style={{ color: "#0077b5" }}
-                viewBox="0 0 24 24">
-                <path
-                  d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
-              </svg>
+            <a href="https://github.com/tmich1997" target='_blank' rel='noopener noreferrer'>
+              <img src={github} alt='GitHub' height={30} width={30} />
             </a>
           </div>
+
+          <div>
+            <a href="https://public.tableau.com/app/profile/timble/vizzes" target='_blank' rel='noopener noreferrer'>
+              <img src={tableau} alt='Tableau' height={30} width={30} />
+            </a>
+          </div>
+
+          <div>
+            <a href="https://www.novypro.com/profile_projects/timble-michael" target='_blank' rel='noopener noreferrer'>
+              <img src={powerBI} alt='Power BI' height={30} width={30} />
+            </a>
+          </div>
+
         </div>
       </motion.div>
 
