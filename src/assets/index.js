@@ -14,6 +14,7 @@ import python from "./tech/python.png"
 import alteryx from "./tech/alteryx.png"
 import python_1 from "./python_1.png"
 import linkedin from "./linkedin.png"
+import tableau_1 from "./tableau_1.png"
 
 
 import css from "./tech/css.png";
@@ -76,4 +77,5 @@ export {
   alteryx,
   linkedin,
   python_1,
+  tableau_1
 };
