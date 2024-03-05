@@ -15,6 +15,7 @@ import alteryx from "./tech/alteryx.png"
 import python_1 from "./python_1.png"
 import linkedin from "./linkedin.png"
 
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -73,8 +74,6 @@ export {
   powerBI,
   python,
   alteryx,
-  linkedin
-  python_1,
   linkedin,
-  python_1
+  python_1,
 };
