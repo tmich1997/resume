@@ -24,7 +24,10 @@ import {
     python,
     alteryx,
     github,
-    python_1
+    python_1,
+    tableau_1,
+    sql_icon,
+    sql_1
   } from "../assets";
   
   export const navLinks = [
@@ -185,53 +188,57 @@ import {
           name: "python",
           color: "blue-text-gradient",
         },
+        {
+          name: "50dayChallenge",
+          color: "green-text-gradient",
+        },
       ],
       image: python_1,
       source_code_link: "https://github.com/tmich1997/50-days-of-python-challenge",
     },
     {
-      name: "Job IT",
+      name: "Marvel API Dashboard",
       source: tableau,
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Utilised Alteryx to extract and transform data from the official Marvel API about Captain America, and visualised the evolution of comic book artwork with Tableau.",
       tags: [
         {
-          name: "react",
+          name: "tableau",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "marvel",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "restAPI",
           color: "pink-text-gradient",
         },
+        {
+          name: "alteryx",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: tableau_1,
+      source_code_link: "https://public.tableau.com/views/CaptainAmericaShieldofValor-MARVELAPI/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
     },
     {
-      name: "Trip Guide",
-      source: powerBI,
+      name: "SQL Murder Mystery",
+      source: sql_icon,
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "I wanted to improve my SQL skills and I found a challenge involving a murder and used only SQL (using an SQLite database) to solve the murder mystery.",
       tags: [
         {
-          name: "nextjs",
+          name: "sql",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "sqlLite",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: sql_1,
+      source_code_link: "https://github.com/tmich1997/sql-murder-mystery",
     },
     {
       name: "Trip Guide",
