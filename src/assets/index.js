@@ -73,6 +73,8 @@ export {
   powerBI,
   python,
   alteryx,
-  python_1,
   linkedin
+  python_1,
+  linkedin,
+  python_1
 };
