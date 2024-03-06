@@ -10,7 +10,7 @@ function HOC() {
             variants={staggerContainer()}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: true, amount: 0.15 }}
+            viewport={{ once: true, amount: 0.11 }}
             className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
         
         >
