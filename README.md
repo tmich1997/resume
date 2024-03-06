@@ -1,6 +1,9 @@
-# React + Vite
+# ReactJS + TailwindCSS + ThreeJS
 
-ReactJS was the main technology being used
+ReactJS was used for the front-end development, TailwindCSS was the framework used for the styling, and ThreeJS was used for the 3D animation.
+
+I wanted to make a personal website that showcased my resume in a unique way. I followed this tutorial:
+[![Watch the video]([https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q](https://www.youtube.com/watch?v=0fYi8SGA20k&t=5421s&ab_channel=JavaScriptMastery))
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
