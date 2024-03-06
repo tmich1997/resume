@@ -17,6 +17,9 @@ import linkedin from "./linkedin.png"
 import tableau_1 from "./tableau_1.png"
 import sql_icon from "./sql_icon.png"
 import sql_1 from "./sql_1.png"
+import powerbi_1 from "./powerbi_1.png"
+import python_2 from "./python_2.png"
+import tableau_2 from "./tableau_2.png"
 
 
 import css from "./tech/css.png";
@@ -81,5 +84,8 @@ export {
   python_1,
   tableau_1,
   sql_icon,
-  sql_1
+  sql_1,
+  powerbi_1,
+  python_2,
+  tableau_2
 };

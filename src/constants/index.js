@@ -27,7 +27,10 @@ import {
     python_1,
     tableau_1,
     sql_icon,
-    sql_1
+    sql_1,
+    powerbi_1,
+    python_2,
+    tableau_2
   } from "../assets";
   
   export const navLinks = [
@@ -241,26 +244,74 @@ import {
       source_code_link: "https://github.com/tmich1997/sql-murder-mystery",
     },
     {
-      name: "Trip Guide",
+      name: "Power BI WoW Challenge",
       source: powerBI,
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This Power BI Workout Wednesday (WoW) challenge was to visualise the change in the average length of a baseball game from 1960 to 2023.",
       tags: [
         {
-          name: "nextjs",
+          name: "powerBI",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "wow2023",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "dax",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: powerbi_1,
+      source_code_link: "https://www.novypro.com/project/wow2023-w20-power-bi-remake-of-tableau-length-of-baseball-games",
+    },
+    {
+      name: "IMDB Web Scraper",
+      source: python,
+      description:
+        "Web scraping data about the TV show Friends from IMDB using Python Requests library and transforming the data using the Pandas library.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "imdb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jupyterNotebook",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: python_2,
+      source_code_link: "https://github.com/tmich1997/imdb-friends-web-scraper",
+    },
+    {
+      name: "Space X API Dashboard",
+      source: tableau,
+      description:
+        "Utilised Alteryx to extract and transform data from the Space X API, and visualised the cost effectiveness of the rockest compared to other rockets from history.",
+      tags: [
+        {
+          name: "tableau",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "spaceX",
+          color: "green-text-gradient",
+        },
+        {
+          name: "restAPI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "alteryx",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: tableau_2,
+      source_code_link: "https://public.tableau.com/views/SpaceXAPI/Origin?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
     },
   ]
   
