@@ -20,6 +20,7 @@ import sql_1 from "./sql_1.png"
 import powerbi_1 from "./powerbi_1.png"
 import python_2 from "./python_2.png"
 import tableau_2 from "./tableau_2.png"
+import python_3 from "./python_3.png"
 
 
 import css from "./tech/css.png";
@@ -87,5 +88,6 @@ export {
   sql_1,
   powerbi_1,
   python_2,
-  tableau_2
+  tableau_2,
+  python_3
 };
