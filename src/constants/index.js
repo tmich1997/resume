@@ -14,23 +14,20 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     sql,
     tableau,
     powerBI,
     python,
     alteryx,
-    github,
     python_1,
     tableau_1,
     sql_icon,
     sql_1,
     powerbi_1,
     python_2,
-    tableau_2
+    tableau_2,
+    python_3
   } from "../assets";
   
   export const navLinks = [
@@ -312,6 +309,32 @@ import {
       ],
       image: tableau_2,
       source_code_link: "https://public.tableau.com/views/SpaceXAPI/Origin?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
+    },
+    {
+      name: "Naruto API",
+      source: python,
+      description:
+        "Utilised Python to extract and transform data from the Naruto API (Dattebayo). An ERD diagram was also made to guide how the tables are connected.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "naruto",
+          color: "green-text-gradient",
+        },
+        {
+          name: "restAPI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "jupyter",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: python_3,
+      source_code_link: "https://github.com/tmich1997/naruto-api-data",
     },
   ]
   
